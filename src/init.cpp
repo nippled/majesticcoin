@@ -149,10 +149,10 @@ bool AppInit(int argc, char* argv[])
             // First part of help message is specific to bitcoind / RPC client
             std::string strUsage = _("majesticcoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  EliteCoind [options]                     " + "\n" +
-                  "  EliteCoind [options] <command> [params]  " + _("Send command to -server or EliteCoind") + "\n" +
-                  "  EliteCoind [options] help                " + _("List commands") + "\n" +
-                  "  EliteCoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  MajesticCoind [options]                     " + "\n" +
+                  "  MajesticCoind [options] <command> [params]  " + _("Send command to -server or EliteCoind") + "\n" +
+                  "  MajesticCoind [options] help                " + _("List commands") + "\n" +
+                  "  MajesticCoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -241,7 +241,7 @@ std::string HelpMessage()
         "  -socks=<n>             " + _("Select the version of socks proxy to use (4-5, default: 5)") + "\n" +
         "  -tor=<ip:port>         " + _("Use proxy to reach tor hidden services (default: same as -proxy)") + "\n"
         "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n" +
-        "  -port=<port>           " + _("Listen for connections on <port> (default: 14801 or testnet: 15801)") + "\n" +
+        "  -port=<port>           " + _("Listen for connections on <port> (default: 9523 or testnet: 19523)") + "\n" +
         "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n" +
         "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n" +
         "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n" +
