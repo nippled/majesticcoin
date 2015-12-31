@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = majesticcoin-qt
+TARGET = droneX144-qt
 VERSION = 1.1.1.1
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
